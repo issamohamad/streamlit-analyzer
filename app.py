@@ -358,3 +358,17 @@ You can now use the outputs and this report to write up the **Method**, **Result
 **Diagnostics**, and **Conclusion** sections of your assignment.
 """
 )
+
+# ----------------------------
+# Footer
+# ----------------------------
+st.divider()
+st.markdown(
+    """
+    <div style="text-align: center; color: gray; font-size: 0.9em;">
+        Developed by <strong>Mohammed Issa</strong><br>
+        📞 +46 73 671 5363
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
